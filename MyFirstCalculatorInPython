@@ -2,33 +2,32 @@ while True:
     print("\n\n### Bienvenido a la Calculadora en Phyton ###\n")
     print("Elige una Opción:\n\n1 Suma\n2 Resta\n3 Multiplicación\n4 División\n5 Potencias\n6 Raices\n\nSi no deseas continuar, escribe 0\n")   
     x=input()
-    if x == '0'or x == '':       
+    if x == '0':       
         break
-    x=int(x)
-    if x == 1:
+    if x == '1':
         a=int(input("\nHas Elegido Suma...\nIngresa el primer dato: "))
         b=int(input("Ingresa el segundo dato: "))
         print("El resultado de la suma es", a+b)
-    elif x == 2:
+    elif x == '2':
         a=int(input("\nHas Elegido Resta...\nIngresa el primer dato: "))
         b=int(input("Ingresa el segundo dato: "))
         print("El resultado de la resta es", a-b)
-    elif x == 3:
+    elif x == '3':
         a=int(input("\nHas Elegido Multiplicación...\nIngresa el primer dato: "))
         b=int(input("Ingresa el segundo dato: "))
         print("El resultado de la resta es", a*b)   
-    elif x == 4:
+    elif x == '4':
         a=int(input("\nHas Elegido División...\nIngresa el primer dato: "))
         b=int(input("Ingresa el segundo dato: "))
         if b == 0:
             print("La división entre 0 es inderteminada. NO se puede realizar la Operacion")
             break
         print("El resultado de la division es", a/b)
-    elif x == 5:
+    elif x == '5':
         a=int(input("\nHas Elegido Potencias...\nIngresa la base:"))
         b=int(input("Ingresa el Exponente:"))
         print("La potencia es", a**b)   
-    elif x == 6:
+    elif x == '6':
         a=int(input("\nHas Elegido Raices...\nIngresa la base: "))
         b=int(input("Ingresa la raiz: "))
         if a < 0 and b == 2:
