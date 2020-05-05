@@ -2,8 +2,6 @@ while True:
     print("\n\n### Bienvenido a la Calculadora en Phyton ###\n")
     print("Elige una Opción:\n\n1 Suma\n2 Resta\n3 Multiplicación\n4 División\n5 Potencias\n6 Raices\n\nSi no deseas continuar, escribe 0\n")   
     x=input()
-    if x == '0':       
-        break
     if x == '1':
         a=int(input("\nHas Elegido Suma...\nIngresa el primer dato: "))
         b=int(input("Ingresa el segundo dato: "))
@@ -34,5 +32,7 @@ while True:
            print("La raíz cuadrada de un número negativo es número complejo")
            break
         print("El resultado de la raiz es", a**(1/b))
+    elif x == '0':       
+        break
     else:
         print("\nHas elegido una opcion invalida, vuelve a intentarlo... \n")
