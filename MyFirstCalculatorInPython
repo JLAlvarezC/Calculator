@@ -1,7 +1,6 @@
 while True:
-    print("\n\n### Bienvenido a la Calculadora en Phyton ###\n")
-    print("Elige una Opción:\n\n1 Suma\n2 Resta\n3 Multiplicación\n4 División\n5 Potencias\n6 Raices\n\nSi no deseas continuar, escribe 0\n")   
-    x=input()
+    print("\n\n### Bienvenido a la Calculadora en Phyton ###\n")   
+    x=input("Elige una Opción:\n\n1 Suma\n2 Resta\n3 Multiplicación\n4 División\n5 Potencias\n6 Raices\n\nSi no deseas continuar, escribe 0\n")
     if x == '1':
         a=int(input("\nHas Elegido Suma...\nIngresa el primer dato: "))
         b=int(input("Ingresa el segundo dato: "))
